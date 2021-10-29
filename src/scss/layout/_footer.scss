@@ -1,0 +1,11 @@
+@use "sass:math";
+.footer {
+    background-color: $rosa;
+    padding: math.div($separacion, 4);
+    text-align: center;
+
+    p {
+        color: $blanco;
+        margin: 0;
+    }
+}
